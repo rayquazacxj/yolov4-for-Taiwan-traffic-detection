@@ -4,8 +4,8 @@ import argparse
 #https://blog.csdn.net/zmlovelx/article/details/100511406
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--ckpt_prefix',  type=str, default='/work/fghuio4000/competition/model_effi0_320_mosaic/voc-556200')
-parser.add_argument('--export_dir',  type=str, default='/work/fghuio4000/competition/model_effi0_320_mosaic/savedModelv2')
+parser.add_argument('--ckpt_prefix',  type=str, default='../model_effi0_320_mosaic/voc-556200')
+parser.add_argument('--export_dir',  type=str, default='../model_effi0_320_mosaic/savedModelv2')
 args = parser.parse_args()
 
 graph = tf.Graph()
