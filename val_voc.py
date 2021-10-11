@@ -163,7 +163,7 @@ def main():
 
         df = pd.DataFrame(results, columns= ['image_filename', 'label_id', 'x', 'y', 'w', 'h', 'confidence'])
         df = df.sort_index(by = ['image_filename'])  
-        df.to_csv (r'/work/fghuio4000/competition/ivslab_test_public/ivslab_test_public/results/submission.csv', index = False, header=True)
+        df.to_csv (r'../ivslab_test_public/ivslab_test_public/results/submission.csv', index = False, header=True)
         print('df:',df)
 
 if __name__ == "__main__":

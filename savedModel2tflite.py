@@ -4,8 +4,8 @@ import argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--savedModel_dir',  type=str, default='/work/fghuio4000/competition/model_effi0_320_mosaic/savedModelv2')
-parser.add_argument('--tflite_name',  type=str, default='/work/fghuio4000/competition/model_effi0_320_mosaic/savedModelv2.tflite')
+parser.add_argument('--savedModel_dir',  type=str, default='../model_effi0_320_mosaic/savedModelv2')
+parser.add_argument('--tflite_name',  type=str, default='../model_effi0_320_mosaic/savedModelv2.tflite')
 args = parser.parse_args()
 # Convert the model.
 

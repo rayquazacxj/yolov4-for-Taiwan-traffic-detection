@@ -51,7 +51,7 @@ def main():
     max_box = 50
     anchors = 12, 16, 19, 36, 40, 28, 36, 75, 76, 55, 72, 146, 142, 110, 192, 243, 459, 401
     anchors =  np.asarray(anchors).astype(np.float32).reshape([-1, 3, 2])
-    model_dir = "/work/fghuio4000/competition/yolov4_weight/"
+    model_dir = "../yolov4_weight/"
     name_file = "./data/coco.names"
     val_dir = "./coco_test_img"
     

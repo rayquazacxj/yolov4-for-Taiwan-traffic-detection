@@ -14,7 +14,7 @@ from src.YOLO import YOLO
 from utils.misc_utils import load_weights
 
 weight_path = './yolo_weights/yolov4.weights'
-save_path = '/work/fghuio4000/competition/yolov4_weight/yolov4.ckpt'
+save_path = '../yolov4_weight/yolov4.ckpt'
 anchors = [12, 16, 19, 36, 40, 28, 36, 75, 76, 55, 72, 146, 142, 110, 192, 243, 459, 401]       # for yolov4.weights
 class_num = 80      # for yolov4.weights
 

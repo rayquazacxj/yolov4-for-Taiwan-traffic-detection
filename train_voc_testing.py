@@ -51,7 +51,7 @@ def test_val_data_draw():
     return 0
 
 def test_data_draw():
-    f_dir = '/work/fghuio4000/competition/gt_analyze/'
+    f_dir = '../gt_analyze/'
     
     
 #     data = Data(voc_root_dir, names_file, class_num, 
