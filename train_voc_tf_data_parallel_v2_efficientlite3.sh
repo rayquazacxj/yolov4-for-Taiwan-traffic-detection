@@ -1,0 +1,1 @@
+python train_voc_tf_data_parallel_v2_efficientlite_sh.py --efficientlite_model 'efficientnet_lite0' --input_shape 1088 --model_path "/work/fghuio4000/competition/model_effi0_1088_ema"  --total_epoch 60

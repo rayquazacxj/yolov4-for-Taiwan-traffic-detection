@@ -1,0 +1,1 @@
+python val_voc_efficient_ema.py --efficientlite_model 'efficientnet_lite0' --input_shape 416 --model_path "/work/fghuio4000/competition/model_effi0_416_ema" --save_dir "/work/fghuio4000/competition/model_effi0_416_ema/test" --save_img True

@@ -1,0 +1,4 @@
+tensorflow-gpu==1.13.2
+numpy==1.18.1
+opencv-python==4.1.2.30
+
