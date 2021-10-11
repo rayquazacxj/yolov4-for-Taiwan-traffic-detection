@@ -38,11 +38,11 @@ momentum = 0.949          #
 weight_decay = 0.0005
 
 # ############## train on VOC ##############
-voc_root_dir = ["/work/fghuio4000/competition/ivslab_train"]  # root directory of voc dataset
-voc_test_dir = "/work/fghuio4000/competition/ivslab_test_qualification/JPEGImages/All"#"/work/fghuio4000/competition/ivslab_test_public/ivslab_test_public/JPEGImages/All"                                                 # test pictures directory for VOC dataset
-voc_save_dir = "/work/fghuio4000/competition/val_iamges"                                                     # the folder to save result image for VOC dataset
-voc_model_path = "/work/fghuio4000/competition/model_v4_ema"#"./VOC_parallel_testing_4gpus"###   # the folder to save model for VOC dataset
-pretrain_model_path = '/work/fghuio4000/competition/yolov4_weight'
+voc_root_dir = ["../ivslab_train"]  # root directory of voc dataset
+voc_test_dir = "../ivslab_test_qualification/JPEGImages/All"#"/work/fghuio4000/competition/ivslab_test_public/ivslab_test_public/JPEGImages/All"                                                 # test pictures directory for VOC dataset
+voc_save_dir = "../competition/val_iamges"                                                     # the folder to save result image for VOC dataset
+voc_model_path = "../competition/model_v4_ema"#"./VOC_parallel_testing_4gpus"###   # the folder to save model for VOC dataset
+pretrain_model_path = '../competition/yolov4_weight'
 
 voc_model_name = "voc"                                          # the model name for VOC dataset
 #voc_names = "./data/voc.names"                             # the names of voc dataset
